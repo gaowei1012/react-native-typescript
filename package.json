@@ -1,0 +1,47 @@
+{
+  "name": "baidu_map",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@types/react-redux": "^7.1.9",
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/react": "^16.9.49",
+    "@types/react-native": "^0.63.18",
+    "@types/redux": "^3.6.0",
+    "@types/redux-logger": "^3.0.8",
+    "@types/redux-thunk": "^2.1.0",
+    "babel-jest": "^26.3.0",
+    "babel-plugin-root-import": "^6.5.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.3.0",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "prettier": "^2.1.1",
+    "react-test-renderer": "16.13.1",
+    "typescript": "^4.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
