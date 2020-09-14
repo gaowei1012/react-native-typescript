@@ -1,11 +1,15 @@
 import * as React from 'react';
 import {View, SafeAreaView, Text, StyleSheet} from 'react-native';
 
+interface IPorps {
+  onPress: () => void;
+}
+
 interface IState {
   index: string;
 }
 
-class Index extends React.PureComponent<{}, IState> {
+class Index extends React.PureComponent<IPorps, IState> {
   public readonly state: Readonly<IState> = {
     index: 'hello',
   };
