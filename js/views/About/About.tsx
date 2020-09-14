@@ -1,7 +1,11 @@
 import * as React from 'react';
 import {View, SafeAreaView, Text, StyleSheet} from 'react-native';
 
-class About extends React.PureComponent {
+interface IState {
+  name: String;
+}
+
+class About extends React.PureComponent<{}, IState> {
   render() {
     return (
       <SafeAreaView style={styles.container}>
